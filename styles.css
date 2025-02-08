@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #858585;
+}
+header {
+    background-color: #6675b4;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    text-align: center;
+}
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills li {
+    background: #ffffff;
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+.project {
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    background: rgb(65, 105, 99);
+}
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+#resume a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#resume a:hover {
+    background-color: #004691;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#contact input, #contact textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact button {
+    padding: 0.8rem;
+    background-color: #ac1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact button:hover {
+    background-color: #28a300;
+}
+footer {
+    background-color: #6675b4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
